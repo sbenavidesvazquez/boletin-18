@@ -72,7 +72,7 @@ public class MetodoNotasAlumnos {
         al = d.nextLine();
 
         for(int i=0;i<dam.length;i++){
-            if(al==alum[i]){
+            if(al.equals(alum[i])){
                 System.out.println(dam[i]);
             }    
         }
